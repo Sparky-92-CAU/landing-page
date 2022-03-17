@@ -1,1 +1,25 @@
-p{color:red;}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: rgba(90, 90, 161, 0.747);
+  }
+  
+  ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    list-style-type: none;
+  }
+  
+  .left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 20px;
+  }
+  
+  a{
+      text-decoration: none;
+  }
