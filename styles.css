@@ -22,13 +22,43 @@
   a{
       text-decoration: none;
   }
+  /* unvisited link */
+  a:link {
+  color: rgb(14, 13, 13);
+}
+
+/* visited link */
+  a:visited {
+  color: rgba(2, 2, 2, 0.568);
+}
+
+/* mouse over link */
+  a:hover {
+  color: rgb(105, 115, 255);
+  text-decoration: underline;
+  text-underline-offset: 1em;
+  text-decoration-thickness: 4px;
+}
+
+/* selected link */
+  a:active {
+  color: rgb(255, 60, 0);
+}
+
 
   .header {
     display: flex;
     justify-content: space-between;
     padding: 8px;
     background-color: rgba(240, 248, 255, 0.205);
+   
     
+  }
+
+  .header img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
   }
 
   .left, .right {
@@ -36,6 +66,12 @@
     align-items: center;
     gap: 16px;
     padding: 20px;
+  }
+
+  .right{
+    align-items: center;
+    padding-right: 20%;
+    
   }
 
   .section1{
@@ -59,3 +95,16 @@
     background-color: rgba(240, 248, 255, 0.205);
     
   }
+
+  .grow { 
+    transition: all .2s ease-in-out; 
+    }
+    
+    .grow:hover { 
+    transform: scale(1.1); 
+    }
+
+    .vl {
+      border-left: 6px solid green;
+      height:auto;
+    }
