@@ -5,7 +5,7 @@
     background-image: url(../landing-page/assets/thunderbird.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: scroll;
+    background-attachment: fixed;
     
    
 
@@ -86,7 +86,9 @@
    /* background-color: rgba(40, 80, 114, 0.473);*/
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap:10%;
+    
     
     
     
@@ -100,14 +102,21 @@
     color: white;
   }
   .container1{
-    max-width: 300px;
-    margin-left: 10%;
+    max-width: 400px;
+    
+    background-color: rgba(135, 183, 224, 0.384);
+    padding: 20px;
+    border: 1px;
+    border-style: double;
+    border-radius: 20%;
   }
 
   .j5{
     width: 200px;
     height: 200px;
-    padding-right: 20%;
+   align-self: center;
+    border-radius: 20%;
+    
     
 
   }
@@ -126,6 +135,7 @@
     display: flex;
     justify-content: center;
     gap: 52px;
+    flex-wrap: wrap;
   }
 
   .info {
@@ -133,8 +143,12 @@
   }
 
   .info img{
-    height:100px;
-    width: 100px;
+    height:200px;
+    width: 200px;
+    border-color: rgba(135, 183, 224, 0.384);
+    border-width: 1em;
+    border-style: double;
+    border-radius: 20%;
   }
 
   .section3{
