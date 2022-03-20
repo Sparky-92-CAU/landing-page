@@ -5,7 +5,11 @@
     background-image: url(../landing-page/assets/thunderbird.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
+    background-attachment: ;
+    margin: 0%;
+    background-position: 50%;
+    background-position-y:19%;
+   
     
    
 
@@ -15,9 +19,11 @@
   ul {
     display: flex;
     margin: 0;
-    padding: 0;
+    padding: 0 ;
     gap:25px;
     list-style-type: none;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
     
   }
   
@@ -38,7 +44,7 @@
 
 /* mouse over link */
   a:hover {
-  color: rgb(105, 115, 255);
+  color: rgba(39, 146, 240, 0.473);
   text-decoration: underline;
   text-underline-offset: 1em;
   text-decoration-thickness: 4px;
@@ -53,10 +59,7 @@
   .header {
     display: flex;
     justify-content: space-between;
-    padding: 8px;
-    background-color: rgba(240, 248, 255, 0.205);
-   
-   
+    background-color: rgba(21, 40, 56, 0.418);
     
   }
 
@@ -68,31 +71,29 @@
 
   .left, .right {
     display: flex;
-    align-items: center;
+    align-items: center ;
     gap: 20px;
     padding: 20px;
+    flex-shrink:0;
+    margin-left:10%;
+   
    
   }
 
   .right{
     align-items: center;
-    padding-right: 20%;
+    margin-right:10%;
   
    
     
   }
 
   .section1{
-   /* background-color: rgba(40, 80, 114, 0.473);*/
-    display: flex;
+    background-color: rgba(39, 146, 240, 0.473);
+    display:flex;
     align-items: center;
-    justify-content: center;
-    gap:10%;
-    
-    
-    
-    
-   
+    justify-content: space-between;
+
   }
   .button1 {
     padding: 8px 16px;
@@ -103,19 +104,28 @@
   }
   .container1{
     max-width: 400px;
-    
-    background-color: rgba(135, 183, 224, 0.384);
     padding: 20px;
+   /* background-color: rgba(135, 183, 224, 0.384);
+   
     border: 1px;
     border-style: double;
-    border-radius: 20%;
+    border-radius: 20%;*/
+    margin-left:10%;
+    
+  }
+
+  .container1 h1{
+    font-size: 48px;
+    font-weight:bolder;
   }
 
   .j5{
-    width: 200px;
+    width: 250px;
     height: 200px;
-   align-self: center;
+    align-self:center ;
     border-radius: 20%;
+    margin-right:10%;
+    
     
     
 
@@ -123,7 +133,7 @@
 
   .section2{
     /*background-color: rgba(114, 40, 40, 0.473);*/
-    text-align: center;
+    text-align: ;
   }
 
   .title2{
@@ -133,9 +143,10 @@
 
   .container2{
     display: flex;
-    justify-content: center;
-    gap: 52px;
+    justify-content:center ;
+    gap: 120px;
     flex-wrap: wrap;
+    background-color: rgba(226, 14, 14, 0.253);
   }
 
   .info {
