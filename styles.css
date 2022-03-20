@@ -8,15 +8,9 @@
     background-image: url(../landing-page/assets/thunderbird.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    
     margin: 0%;
     background-position: 50%;
     background-position-y:15%;
-    
-   
-   
-    
-   
 
 
   }
@@ -98,6 +92,7 @@
     display:flex;
     align-items: center;
     justify-content: space-between;
+  
     
   }
   .button1 {
