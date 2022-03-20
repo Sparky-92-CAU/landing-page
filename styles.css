@@ -5,10 +5,10 @@
     background-image: url(../landing-page/assets/thunderbird.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: ;
+    
     margin: 0%;
     background-position: 50%;
-    background-position-y:19%;
+    background-position-y:15%;
    
     
    
@@ -105,11 +105,6 @@
   .container1{
     max-width: 400px;
     padding: 20px;
-   /* background-color: rgba(135, 183, 224, 0.384);
-   
-    border: 1px;
-    border-style: double;
-    border-radius: 20%;*/
     margin-left:10%;
     
   }
@@ -131,10 +126,7 @@
 
   }
 
-  .section2{
-    /*background-color: rgba(114, 40, 40, 0.473);*/
-    text-align: ;
-  }
+  
 
   .title2{
     margin-bottom: 32px;
@@ -147,6 +139,9 @@
     gap: 120px;
     flex-wrap: wrap;
     background-color: rgba(226, 14, 14, 0.253);
+    align-items: center;
+    padding:5%;
+    
   }
 
   .info {
@@ -156,36 +151,51 @@
   .info img{
     height:200px;
     width: 200px;
-    border-color: rgba(135, 183, 224, 0.384);
-    border-width: 1em;
-    border-style: double;
+    border-color: royalblue;
+    border-width: 5px;
+    border-style: solid;
     border-radius: 20%;
+    
   }
 
   .section3{
-    /*background-color: rgba(40, 80, 114, 0.473);*/
+    background-color: rgba(39, 146, 240, 0.473);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-size: 30px;
     
-    
-
+  
+  }
+  .section3 h3{
+    font-size: 16px;
   }
 
   .quote{
-    max-width: 300px;
+    max-width: 500px;
   }
 
   .section4{
-   /* background-color: rgba(114, 40, 40, 0.473);*/
+   background-color:  rgba(39, 146, 240, 0.473);
    display: flex;
    justify-content: center;
+   align-items: center;
+   padding: 50px;
    
   }
+  .section4 button{
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    font-size: 48px;
+  }
+
 
   .footer {
-    background-color: rgba(240, 248, 255, 0.205);
+    background-color: rgba(21, 40, 56, 0.418);
     display: flex;
     justify-content: center;
     
